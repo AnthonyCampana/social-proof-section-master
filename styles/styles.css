@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 376px) {
+
+    body {
+        width: 100%;
+        height: 102vh;
+    }
+
+    main {
+        width: 100%;
+        height: 98.04%;
+        background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-size: 40.5%, 76%;
+        background-position-y: 0em, 7.6em;
+        background-position-x: 0em, 22em;
+    }
+
+    .review-container {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+
+    .stats-submation {
+        width: 50%;
+        height: 100%;
+    }
+
+    .stats-submation > h1 {
+        margin-top: 16.5%;
+        margin-left: 22.8%;
+        margin-right: 13%;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        font-size: 52px;
+        line-height: 48px;
+    }
+
+    .stats-submation > p {
+        margin-top: 3.5%;
+        margin-left: 22.79%;
+        margin-right: 19%;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: hsl(303, 10%, 53%);
+        line-height: 25px;
+    }
+
+    .company-reviews {
+        width: 50%;
+        height: 100%;
+    }
+
+    .five-star-reviews {
+        margin-left: 2%;
+        margin-top: 18%;
+        list-style-type: none;
+        height: 60%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .five-star-reviews > li {
+        margin-top: 3.3%;
+        background-color: hsl(300, 24%, 96%);
+        height: 23%;
+        width: 88%;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .rating-container {
+        width: 26.5%;
+        margin-left: 7%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #second-rating-li {
+        margin-left: 9.6%;
+    }
+
+    #third-rating-li {
+        margin-left: 19.1%;
+    }
+
+    .five-star-reviews > li > p {
+        margin-left: 7.3%;
+        display: inline;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+    }
+
+    .testimonial-container {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .testimonials {
+        width: 77%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2.3%;
+        margin-left: 11.5%;
+    }
+
+    #irene {
+        margin-top: 1.4%;
+    }
+
+    #anne {
+        margin-top: 2.8%;
+    }
+
+    .verified-feedback {
+        width: 31.5%;
+        height: 60%;
+        background-color: hsl(300, 43%, 22%);
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+    }
+
+    .verified-buyer-info {
+        margin-left: 9%;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 10.9%;
+    }
+
+    .verified-buyer-info > img {
+        border-radius: 50%;
+        width: 13%;
+    }
+
+    .verified-buyer-name {
+        width: auto;
+        margin-left: 7%;
+        margin-top: 2%;
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    #username {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    #buyer-status {
+        font-size: 16.5px;
+        color: hsl(333, 80%, 67%, .8);
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+    }
+
+    .verified-buyer-name > h6 {
+        margin-bottom: 3%;
+    }
+
+    .verified-feedback > p {
+        margin-top: 7.5%;
+        margin-bottom: 11%;
+        margin-left: 9.4%; 
+        margin-right: 9%;  
+        font-size: 16.2px;
+        font-weight: 500;
+        font-family: 'League Spartan', sans-serif;
+        line-height: 22px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 100%;
+        height: 102vh;
+    }
+
+    main {
+        width: 100%;
+        height: 98.04%;
+        background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-size: 40.5%, 76%;
+        background-position-y: 0em, 7.6em;
+        background-position-x: 0em, 22em;
+    }
+
+    .review-container {
+        width: 100%;
+        height: 41%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-submation {
+        width: 94%;
+    }
+
+    .stats-submation > h1 {
+        width: 80%;
+        margin-top: 23.5%;
+        margin-left: 10%;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        font-size: 37px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .stats-submation > p {
+        margin-top: 6%;
+        margin-left: 3.7%;
+        margin-right: 3%;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: hsl(303, 10%, 53%);
+        line-height: 25.5px;
+        text-align: center;
+    }
+
+    .company-reviews {
+        width: 88%;
+        height: 100%;
+    }
+
+    .five-star-reviews {
+        list-style-type: none;
+        height: 100%;
+        width: 100%;
+        padding-top: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .five-star-reviews > li {
+        margin-top: 4.3%;
+        background-color: hsl(300, 24%, 96%);
+        height: 24%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    #first-rating-li > p {
+        margin-left: 3%;
+    }
+
+    .rating-container {
+        width: 35%;
+        height: 21%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4%;
+    }
+
+    .five-star-reviews > li > p {
+        display: inline;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+    }
+
+    .testimonial-container {
+        width: 100%;
+        height: 59%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonials {
+        width: 86%;
+        height: 89%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 7%;
+    }
+
+    .verified-feedback {
+        width: 100%;
+        height: 31%;
+        background-color: hsl(300, 43%, 22%);
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        margin-bottom: 5%;
+    }
+
+    .verified-buyer-info {
+        height: 20%;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 10%;
+    }
+
+    .verified-buyer-info > img {
+        width: 12%;
+        height: 80%;
+        margin-left: 9.5%;
+        border-radius: 51%;
+    }
+
+    .verified-buyer-name {
+        width: auto;
+        margin-left: 7%;
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    #username {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    #buyer-status {
+        font-size: 16.5px;
+        color: hsl(333, 80%, 67%, .8);
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+    }
+
+    .verified-buyer-name > h6 {
+        margin-bottom: 2%;
+    }
+
+    .verified-feedback > p {
+        margin-top: 8%;
+        margin-bottom: 11%;
+        margin-left: 9.5%; 
+        margin-right: 9%;  
+        font-size: 16.2px;
+        font-weight: 500;
+        font-family: 'League Spartan', sans-serif;
+        line-height: 22px;
+    }
+}
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
